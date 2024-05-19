@@ -203,7 +203,7 @@ public final class YamlConfigurationLoader extends AbstractConfigurationLoader<C
         Builder() {
             this.indent(4);
             this.defaultOptions(o -> o.nativeTypes(NATIVE_TYPES));
-            this.from(DEFAULT_OPTIONS_SOURCE);
+            //this.from(DEFAULT_OPTIONS_SOURCE);
         }
 
         @Override
